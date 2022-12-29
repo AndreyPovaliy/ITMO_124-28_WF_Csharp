@@ -16,7 +16,7 @@ namespace _05.Greenpeace_1_5ctrl2_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form2());
         }
     }
 }
