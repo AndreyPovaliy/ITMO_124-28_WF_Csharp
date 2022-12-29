@@ -16,7 +16,7 @@ namespace _02.TriangularShape__1_23_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new nForm());
         }
     }
 }
