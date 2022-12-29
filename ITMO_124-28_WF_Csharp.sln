@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Windows Forms (1_1)", "01. Windows Forms (1_1)\01. Windows Forms (1_1).csproj", "{E81F2D21-B1F2-471E-BEEF-E2C05B3114FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TriangularShape (1_23)", "02.TriangularShape (1_23)\02.TriangularShape (1_23).csproj", "{5F22D927-0B24-4641-BE18-C4FB774B46CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. MDI Applications (1_4)", "03. MDI Applications (1_4)\03. MDI Applications (1_4).csproj", "{2FF152C2-30A8-4BFC-A1B2-912188A189F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.OvalShape(1_5ctrl1)", "04.OvalShape(1_5ctrl1)\04.OvalShape(1_5ctrl1).csproj", "{8BAD771B-0FB9-422C-9453-02C6F5E7E875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Greenpeace(1_5ctrl2)", "05.Greenpeace(1_5ctrl2)\05.Greenpeace(1_5ctrl2).csproj", "{DBC3A750-2051-4D4A-B6A0-ABAE2A6FFE89}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E81F2D21-B1F2-471E-BEEF-E2C05B3114FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81F2D21-B1F2-471E-BEEF-E2C05B3114FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81F2D21-B1F2-471E-BEEF-E2C05B3114FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81F2D21-B1F2-471E-BEEF-E2C05B3114FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F22D927-0B24-4641-BE18-C4FB774B46CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F22D927-0B24-4641-BE18-C4FB774B46CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F22D927-0B24-4641-BE18-C4FB774B46CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F22D927-0B24-4641-BE18-C4FB774B46CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF152C2-30A8-4BFC-A1B2-912188A189F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF152C2-30A8-4BFC-A1B2-912188A189F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF152C2-30A8-4BFC-A1B2-912188A189F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF152C2-30A8-4BFC-A1B2-912188A189F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAD771B-0FB9-422C-9453-02C6F5E7E875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAD771B-0FB9-422C-9453-02C6F5E7E875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAD771B-0FB9-422C-9453-02C6F5E7E875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAD771B-0FB9-422C-9453-02C6F5E7E875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC3A750-2051-4D4A-B6A0-ABAE2A6FFE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC3A750-2051-4D4A-B6A0-ABAE2A6FFE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC3A750-2051-4D4A-B6A0-ABAE2A6FFE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC3A750-2051-4D4A-B6A0-ABAE2A6FFE89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
