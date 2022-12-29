@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E81F2D21-B1F2-471E-BEEF-E2C05B3114FF}</ProjectGuid>
+    <ProjectGuid>{C5DF5B6B-3320-4FF9-A7F6-34F17212BF34}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_01.Windows_Forms__1_1_</RootNamespace>
-    <AssemblyName>_01.Windows_Forms__1_1_</AssemblyName>
+    <RootNamespace>_06.RubberForm__1_5ctrl3_</RootNamespace>
+    <AssemblyName>06.RubberForm %281_5ctrl3%29</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,20 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="nForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="nForm.Designer.cs">
-      <DependentUpon>nForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="nForm.resx">
-      <DependentUpon>nForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
