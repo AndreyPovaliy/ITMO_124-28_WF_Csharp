@@ -33,20 +33,20 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(296, 180);
+            this.button1.Location = new System.Drawing.Point(858, 567);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 77);
+            this.button1.Size = new System.Drawing.Size(333, 95);
             this.button1.TabIndex = 0;
             this.button1.Text = "GREENPEACE";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1220, 696);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";

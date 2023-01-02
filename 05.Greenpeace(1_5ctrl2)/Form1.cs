@@ -36,5 +36,10 @@ namespace _05.Greenpeace_1_5ctrl2_
         {
             this.Close();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

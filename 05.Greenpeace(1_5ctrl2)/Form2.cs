@@ -21,8 +21,6 @@ namespace _05.Greenpeace_1_5ctrl2_
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 myF2 = new Form1();
-            myF2.StartPosition = FormStartPosition.Manual; 
-            myF2.Location = new Point(this.Location.X + this.Width, this.Location.Y); 
             myF2.Show();
         }
 
