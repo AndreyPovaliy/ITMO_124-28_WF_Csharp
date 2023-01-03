@@ -57,7 +57,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25. WinAsynchMethod (7_34)"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Algorithm_Eratosthenes (7_5)", "26. Algorithm_Eratosthenes (7_5)\26. Algorithm_Eratosthenes (7_5).csproj", "{06035A8B-C433-4C55-B6C8-A3187EBF5B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCalculator", "..\..\1_WindowsForms\Практика\Practices\Calc_Starter\WindowsCalculator.csproj", "{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCalculator(exam_task)", "WinFormCalculator(exam_task)\WinFormCalculator(exam_task).csproj", "{ED149B5A-112F-4320-B7CB-9955645C8B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,10 +173,10 @@ Global
 		{06035A8B-C433-4C55-B6C8-A3187EBF5B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06035A8B-C433-4C55-B6C8-A3187EBF5B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06035A8B-C433-4C55-B6C8-A3187EBF5B88}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED149B5A-112F-4320-B7CB-9955645C8B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED149B5A-112F-4320-B7CB-9955645C8B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED149B5A-112F-4320-B7CB-9955645C8B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED149B5A-112F-4320-B7CB-9955645C8B23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
