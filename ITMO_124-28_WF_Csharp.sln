@@ -35,27 +35,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. WinButNum (3_3)", "14. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. ValidatingData (3_4ctrl)", "15. ValidatingData (3_4ctrl)\15. ValidatingData (3_4ctrl).csproj", "{08FD3EB0-0BF1-4AEE-B99E-65582D3FFED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Excel1 (5_1)", "16. Excel1 (5_1)\16. Excel1 (5_1).csproj", "{A0F11C56-0B78-4393-92B7-DCA089D6B171}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Excel1 (5_1)", "16. Excel1 (5_1)\21. Excel1 (5_1).csproj", "{A0F11C56-0B78-4393-92B7-DCA089D6B171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. PDF_Reader (5_2)", "17. PDF_Reader (5_2)\17. PDF_Reader (5_2).csproj", "{27DCBAB3-0E3E-41CD-826D-97B48744240C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. PDF_Reader (5_2)", "17. PDF_Reader (5_2)\22. PDF_Reader (5_2).csproj", "{27DCBAB3-0E3E-41CD-826D-97B48744240C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. WinAnim (5_3)", "18. WinAnim (5_3)\18. WinAnim (5_3).csproj", "{0D1805A0-D64A-4B64-9823-3D22809256C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. WinAnim (5_3)", "18. WinAnim (5_3)\23. WinAnim (5_3).csproj", "{0D1805A0-D64A-4B64-9823-3D22809256C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Word1 (5_4)", "19. Word1 (5_4)\19. Word1 (5_4).csproj", "{7583D9C8-5A24-4914-9642-6FF21B8B9220}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. Word1 (5_4)", "19. Word1 (5_4)\24. Word1 (5_4).csproj", "{7583D9C8-5A24-4914-9642-6FF21B8B9220}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. WinGrafSinLine (6_1)", "20. WinGrafSinLine (6_1)\20. WinGrafSinLine (6_1).csproj", "{6D41533E-B4B0-4390-86A3-87F6006E0443}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25. WinGrafSinLine (6_1)", "20. WinGrafSinLine (6_1)\25. WinGrafSinLine (6_1).csproj", "{6D41533E-B4B0-4390-86A3-87F6006E0443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Balls (6_2)", "21. Balls (6_2)\21. Balls (6_2).csproj", "{85862FD0-9653-4D07-9EF6-029D5778CEEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Balls (6_2)", "21. Balls (6_2)\26. Balls (6_2).csproj", "{85862FD0-9653-4D07-9EF6-029D5778CEEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. WindowsFormsChart (6_3)", "22. WindowsFormsChart (6_3)\22. WindowsFormsChart (6_3).csproj", "{17DDD663-62D4-4349-A52F-D8CF00082896}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27. WindowsFormsChart (6_3)", "22. WindowsFormsChart (6_3)\27. WindowsFormsChart (6_3).csproj", "{17DDD663-62D4-4349-A52F-D8CF00082896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. WinBackgroundWorker (7_1)", "23. WinBackgroundWorker (7_1)\23. WinBackgroundWorker (7_1).csproj", "{CC9F26EE-DAEC-4DB3-AA43-87649FDDC667}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. WinBackgroundWorker (7_1)", "23. WinBackgroundWorker (7_1)\28. WinBackgroundWorker (7_1).csproj", "{CC9F26EE-DAEC-4DB3-AA43-87649FDDC667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. WinAsynchDelegate (7_2)", "24. WinAsynchDelegate (7_2)\24. WinAsynchDelegate (7_2).csproj", "{86A2FF74-CDAD-4CA8-A384-6D358F654B96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29. WinAsynchDelegate (7_2)", "24. WinAsynchDelegate (7_2)\29. WinAsynchDelegate (7_2).csproj", "{86A2FF74-CDAD-4CA8-A384-6D358F654B96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25. WinAsynchMethod (7_34)", "25. WinAsynchMethod (7_34)\25. WinAsynchMethod (7_34).csproj", "{EFD83EFA-5FA8-4D1B-BEEC-8794922C562D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30. WinAsynchMethod (7_34)", "25. WinAsynchMethod (7_34)\30. WinAsynchMethod (7_34).csproj", "{EFD83EFA-5FA8-4D1B-BEEC-8794922C562D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Algorithm_Eratosthenes (7_5)", "26. Algorithm_Eratosthenes (7_5)\26. Algorithm_Eratosthenes (7_5).csproj", "{06035A8B-C433-4C55-B6C8-A3187EBF5B88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31. Algorithm_Eratosthenes (7_5)", "26. Algorithm_Eratosthenes (7_5)\31. Algorithm_Eratosthenes (7_5).csproj", "{06035A8B-C433-4C55-B6C8-A3187EBF5B88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCalculator(exam_task)", "WinFormCalculator(exam_task)\WinFormCalculator(exam_task).csproj", "{ED149B5A-112F-4320-B7CB-9955645C8B23}"
 EndProject

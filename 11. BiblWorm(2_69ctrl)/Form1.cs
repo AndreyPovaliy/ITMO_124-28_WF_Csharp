@@ -16,5 +16,10 @@ namespace _11.BiblWorm_2_69ctrl_
         {
             InitializeComponent();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
