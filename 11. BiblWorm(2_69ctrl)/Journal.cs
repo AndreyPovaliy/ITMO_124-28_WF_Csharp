@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace _11.BiblWorm_2_69ctrl_
 {
-    class Book : Item
+    internal class Journal : Item
     {
+
         private String author;
         private String title;
         private String publisher;
@@ -17,14 +19,14 @@ namespace _11.BiblWorm_2_69ctrl_
         private bool returnSrok;
 
         private static double price = 9;
-        
-        static Book()       //статический конструктор
+
+        static Journal()       //статический конструктор
         {
             price = 100;
         }
 
-        
-        public Book(String author, String title, String publisher, int pages, int year, long invNumber, bool taken) : base (invNumber, taken)
+
+        public Journal(String author, String title, String publisher, int pages, int year, long invNumber, bool taken) : base(invNumber, taken)
         {
             this.author = author;
             this.title = title;
@@ -33,35 +35,35 @@ namespace _11.BiblWorm_2_69ctrl_
             this.year = year;
         }
 
-        public Book()
+        public Journal()
         { }
 
 
 
         public static void SetPrice(double price)
         {
-            Book.price = price;
+            Journal.price = price;
         }
 
         public override string ToString()
         {
             if (this.IsAvailable())
-            return "\nКнига:\n Автор: " + author +"\n Название: " + title +
-            "\n Год издания: " + year + "., " + pages + " стр. \n Стоимость аренды: " + Book.price + " p.\n" + base.ToString()
-            + "\nИтого за чтение: " + cust + " p.";
+                return "\nЖурнал:\n Автор: " + author + "\n Название: " + title +
+                "\n Год издания: " + year + "., " + pages + " стр. \n Стоимость аренды: " + Journal.price + " p.\n" + base.ToString()
+                + "\nИтого за чтение: " + cust + " p.";
             else
-                return "\nКнига:\n Автор: " + author +"\n Название: " + title +
-            "\n Год издания: " + year + "., " + pages + " стр. \n Стоимость аренды: " + Book.price + " p.\n" + base.ToString();
+                return "\nЖурнал:\n Автор: " + author + "\n Название: " + title +
+            "\n Год издания: " + year + "., " + pages + " стр. \n Стоимость аренды: " + Journal.price + " p.\n" + base.ToString();
 
         }
 
-        public void PriceBook(int s)
+        public void PriceJournal(int s)
         {
 
             if (this.returnSrok == true)
                 this.cust = s * price;
             else this.cust = s * (price + price * 0.13); ;
-            
+
         }
 
         public void ReturnSrok()
@@ -76,6 +78,5 @@ namespace _11.BiblWorm_2_69ctrl_
             else
                 taken = false;
         }
-
     }
 }

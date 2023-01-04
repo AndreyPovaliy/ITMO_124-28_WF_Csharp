@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MyClass
+namespace _11.BiblWorm_2_69ctrl_
 {
     abstract class Item : IComparable
     {
