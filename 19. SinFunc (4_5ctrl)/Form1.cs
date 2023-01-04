@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _12.WinTimer1__3_1_
+namespace _19.SinFunc__4_5ctrl_
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked == true)
-
-                userControlTimer1.TimeEnabled = false;
-            else
-                userControlTimer1.TimeEnabled = true;
-            
         }
     }
 }

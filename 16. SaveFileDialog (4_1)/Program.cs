@@ -4,13 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _15.ValidatingData__3_4ctrl_
+namespace _16.SaveFileDialog__4_1_
 {
-    internal static class Program 
+    internal static class Program
     {
-
-        
-
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -21,8 +18,5 @@ namespace _15.ValidatingData__3_4ctrl_
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-
-
-        
     }
 }

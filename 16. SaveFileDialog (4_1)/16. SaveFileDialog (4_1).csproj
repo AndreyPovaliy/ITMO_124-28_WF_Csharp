@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66BA8E5B-3C6E-4381-93D0-DA21A6897795}</ProjectGuid>
+    <ProjectGuid>{B02030A6-79BC-42CB-9831-D5287CB4280C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_13.WinTimer2__3_2_</RootNamespace>
-    <AssemblyName>_13.WinTimer2__3_2_</AssemblyName>
+    <RootNamespace>_16.SaveFileDialog__4_1_</RootNamespace>
+    <AssemblyName>_16.SaveFileDialog__4_1_</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,12 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControlTimer2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlTimer2.Designer.cs">
-      <DependentUpon>UserControlTimer2.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,9 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControlTimer2.resx">
-      <DependentUpon>UserControlTimer2.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

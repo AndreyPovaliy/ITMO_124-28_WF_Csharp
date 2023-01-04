@@ -1,4 +1,4 @@
-﻿namespace _14.WinButNum__3_3_
+﻿namespace _19.SinFunc__4_5ctrl_
 {
     partial class Form1
     {
@@ -28,33 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.clickButton1 = new _14.WinButNum__3_3_.ClickButton();
-            this.SuspendLayout();
-            // 
-            // clickButton1
-            // 
-            this.clickButton1.Location = new System.Drawing.Point(235, 164);
-            this.clickButton1.Name = "clickButton1";
-            this.clickButton1.Size = new System.Drawing.Size(291, 158);
-            this.clickButton1.TabIndex = 0;
-            this.clickButton1.Text = "clickButton1";
-            this.clickButton1.UseVisualStyleBackColor = true;
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.clickButton1);
-            this.Name = "Form1";
             this.Text = "Form1";
-            this.ResumeLayout(false);
-
         }
 
         #endregion
-
-        private ClickButton clickButton1;
     }
 }
 

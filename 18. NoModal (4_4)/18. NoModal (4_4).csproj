@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66BA8E5B-3C6E-4381-93D0-DA21A6897795}</ProjectGuid>
+    <ProjectGuid>{E5C0CE37-403A-43D8-9132-DDF1FD491208}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_13.WinTimer2__3_2_</RootNamespace>
-    <AssemblyName>_13.WinTimer2__3_2_</AssemblyName>
+    <RootNamespace>_18.NoModal__4_4_</RootNamespace>
+    <AssemblyName>_18.NoModal__4_4_</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,15 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControlTimer2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlTimer2.Designer.cs">
-      <DependentUpon>UserControlTimer2.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,9 +63,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControlTimer2.resx">
-      <DependentUpon>UserControlTimer2.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
