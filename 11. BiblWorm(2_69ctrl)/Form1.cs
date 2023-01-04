@@ -162,15 +162,15 @@ namespace _11.BiblWorm_2_69ctrl_
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Journal j = new Journal(Author, Title, PublishHouse,
-               Page, Year, InvNumber, Existence);
-            if (ReturnTime)
+            Journal j = new Journal(Author1, Title1, PublishHouse1,
+               Page1, Year1, InvNumber1, Existence1);
+            if (ReturnTime1)
                 j.ReturnSrok();
-            j.PriceJournal(PeriodUse);
+            j.PriceJournal(PeriodUse1);
             its.Add(j);
-            Author = Title = PublishHouse = "";
-            Page = InvNumber = PeriodUse = 0;
-            Year = 2020;
+            Author1 = Title1 = PublishHouse1 = "";
+            Page1 = InvNumber1 = PeriodUse1 = 0;
+            Year1 = 2020;
             Existence = ReturnTime = false;
         }
     }
