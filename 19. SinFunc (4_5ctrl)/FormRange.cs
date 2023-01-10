@@ -20,14 +20,30 @@ namespace _19.SinFunc__4_5ctrl_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string s = textBox1.Text + " " + textBox2.Text;
-            string l = "Левая граница: " +textBox1.Text + " правая граница " + textBox2.Text;
-            Form1 frm1 = this.Owner as Form1;
-            if (frm1 != null)
+            decimal i = numericUpDown1.Value;
+            while (i < numericUpDown2.Value)
             {
-                frm1.S_Data = s;
-                frm1.L_Data = l;
+                double sin = Math.Round(Math.Sin(decimal.ToDouble(i)), 1);
+                string sin_str = sin.ToString();
+                Form1 frm1 = this.Owner as Form1;
+                frm1.S_Data += i + ";" + sin_str + "\n";
+                i = i + 0.10M;         
+                frm1.L_Data = "Левая граница: " + numericUpDown1.Text + " правая граница " + numericUpDown2.Text;
+
+
+
             }
+
+            this.Close();
+        }
+
+        private void FormRange_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
     }
