@@ -44,6 +44,9 @@ namespace _20.WinGrafSinLine__6_1_
             }
         }
 
+ 
+            
+
         private void button1_Click(object sender, EventArgs e)
         {
             try

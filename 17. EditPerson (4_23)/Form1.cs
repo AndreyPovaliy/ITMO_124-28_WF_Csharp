@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace _17.EditPerson__4_23_
 {
@@ -68,6 +71,38 @@ namespace _17.EditPerson__4_23_
                 e.Item.SubItems.Add(pers[e.ItemIndex].LastName);
                 e.Item.SubItems.Add(pers[e.ItemIndex].Age.ToString());
             }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            BinaryFormatter binFormat = new BinaryFormatter();
+            using (FileStream fStream = new FileStream("AllMyPerson.dat",
+            FileMode.Create, FileAccess.Write, FileShare.None))
+            {
+                binFormat.Serialize(fStream, pers);
+            }
+            using (FileStream fStream = new FileStream("PersonCollection.xml",
+                FileMode.Create, FileAccess.Write, FileShare.None))
+            {
+                XmlSerializer xmlFormat = new XmlSerializer(typeof(List<Person>));
+                xmlFormat.Serialize(fStream, pers);
+            }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            BinaryFormatter binFormat = new BinaryFormatter();
+            try
+            {
+                using (FileStream fStream = new FileStream("AllMyPerson.dat",
+                FileMode.OpenOrCreate, FileAccess.Read, FileShare.None))
+                {
+                    pers.AddRange((List<Person>)binFormat.Deserialize(fStream));
+                }
+            }
+            catch
+            { }
         }
     }
 }
