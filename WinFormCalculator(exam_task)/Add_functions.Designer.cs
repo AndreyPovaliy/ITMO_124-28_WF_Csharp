@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.KeySquaring = new System.Windows.Forms.Button();
             this.KeyReverse = new System.Windows.Forms.Button();
             this.KeySquareRoot = new System.Windows.Forms.Button();
@@ -35,6 +36,7 @@
             this.keyСubicRoot = new System.Windows.Forms.Button();
             this.keyFactorial = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // KeySquaring
@@ -47,6 +49,7 @@
             this.KeySquaring.TabIndex = 16;
             this.KeySquaring.TabStop = false;
             this.KeySquaring.Text = "x^2";
+            this.toolTip1.SetToolTip(this.KeySquaring, "Определение квадрата числа");
             this.KeySquaring.Click += new System.EventHandler(this.KeySquaring_Click);
             // 
             // KeyReverse
@@ -59,6 +62,7 @@
             this.KeyReverse.TabIndex = 17;
             this.KeyReverse.TabStop = false;
             this.KeyReverse.Text = "1/x";
+            this.toolTip1.SetToolTip(this.KeyReverse, "Расчет обратного значения");
             this.KeyReverse.Click += new System.EventHandler(this.KeyReverse_Click);
             // 
             // KeySquareRoot
@@ -71,6 +75,7 @@
             this.KeySquareRoot.TabIndex = 18;
             this.KeySquareRoot.TabStop = false;
             this.KeySquareRoot.Text = "√x";
+            this.toolTip1.SetToolTip(this.KeySquareRoot, "Корень");
             this.KeySquareRoot.Click += new System.EventHandler(this.KeySquareRoot_Click);
             // 
             // KeyExponentiation
@@ -83,6 +88,7 @@
             this.KeyExponentiation.TabIndex = 19;
             this.KeyExponentiation.TabStop = false;
             this.KeyExponentiation.Text = "x^y";
+            this.toolTip1.SetToolTip(this.KeyExponentiation, "Возведение в степень");
             this.KeyExponentiation.Click += new System.EventHandler(this.KeyExponentiation_Click);
             // 
             // keyСubicRoot
@@ -95,6 +101,7 @@
             this.keyСubicRoot.TabIndex = 20;
             this.keyСubicRoot.TabStop = false;
             this.keyСubicRoot.Text = "∛x";
+            this.toolTip1.SetToolTip(this.keyСubicRoot, "Кубический корень");
             this.keyСubicRoot.Click += new System.EventHandler(this.keyСubicRoot_Click);
             // 
             // keyFactorial
@@ -107,6 +114,7 @@
             this.keyFactorial.TabIndex = 21;
             this.keyFactorial.TabStop = false;
             this.keyFactorial.Text = "x!";
+            this.toolTip1.SetToolTip(this.keyFactorial, "Факториал");
             this.keyFactorial.Click += new System.EventHandler(this.keyFactorial_Click);
             // 
             // toolStrip1
@@ -114,7 +122,7 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(282, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(282, 31);
             this.toolStrip1.TabIndex = 22;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -150,5 +158,6 @@
         private System.Windows.Forms.Button keyСubicRoot;
         private System.Windows.Forms.Button keyFactorial;
         private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
