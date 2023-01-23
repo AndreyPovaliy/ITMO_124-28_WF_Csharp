@@ -55,8 +55,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. WinAsynchDelegate (7_2)
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29. WinAsynchMethod (7_34)", "25. WinAsynchMethod (7_34)\29. WinAsynchMethod (7_34).csproj", "{EFD83EFA-5FA8-4D1B-BEEC-8794922C562D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30. Algorithm_Eratosthenes (7_5)", "26. Algorithm_Eratosthenes (7_5)\30. Algorithm_Eratosthenes (7_5).csproj", "{06035A8B-C433-4C55-B6C8-A3187EBF5B88}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCalculator(exam_task)", "WinFormCalculator(exam_task)\WinFormCalculator(exam_task).csproj", "{ED149B5A-112F-4320-B7CB-9955645C8B23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. SaveFileDialog (4_1)", "16. SaveFileDialog (4_1)\16. SaveFileDialog (4_1).csproj", "{B02030A6-79BC-42CB-9831-D5287CB4280C}"
@@ -177,10 +175,6 @@ Global
 		{EFD83EFA-5FA8-4D1B-BEEC-8794922C562D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD83EFA-5FA8-4D1B-BEEC-8794922C562D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFD83EFA-5FA8-4D1B-BEEC-8794922C562D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06035A8B-C433-4C55-B6C8-A3187EBF5B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06035A8B-C433-4C55-B6C8-A3187EBF5B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06035A8B-C433-4C55-B6C8-A3187EBF5B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06035A8B-C433-4C55-B6C8-A3187EBF5B88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED149B5A-112F-4320-B7CB-9955645C8B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED149B5A-112F-4320-B7CB-9955645C8B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED149B5A-112F-4320-B7CB-9955645C8B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
